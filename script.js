@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // --- You would place the following code here if you have a backend ---
 
-            const BACKEND_URL = 'http://localhost:8888';
+            const BACKEND_URL = 'https://overflowing-education-production-3419.up.railway.app';
+            // const BACKEND_URL = 'http://localhost:8888';
             try {
                 // Simplified payload example
                 const response = await fetch(`${BACKEND_URL}/api/initiate-chat`, {
