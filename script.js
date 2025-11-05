@@ -27,8 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // --- You would place the following code here if you have a backend ---
 
-            const BACKEND_URL = 'https://overflowing-education-production-3419.up.railway.app';
+            // const BACKEND_URL = 'https://overflowing-education-production-3419.up.railway.app';
+            const BACKEND_URL = 'https://regard-examination-periods-phantom.trycloudflare.com';
+            // const BACKEND_URL = 'http://20.164.0.179:8888';
             // const BACKEND_URL = 'http://localhost:8888';
+            // const BACKEND_URL = "my-cool-wa-bot-2025-e9bdfqazcshfgebm.southafricanorth-01.azurewebsites.net";
             try {
                 // Simplified payload example
                 const response = await fetch(`${BACKEND_URL}/api/initiate-chat`, {
